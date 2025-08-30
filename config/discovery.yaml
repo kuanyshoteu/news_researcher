@@ -1,0 +1,63 @@
+domains:
+  - https://openai.com/blog
+  - https://deepmind.google/discover/blog
+  - https://ai.googleblog.com
+  - https://www.anthropic.com
+  - https://cohere.com/blog
+  - https://mistral.ai/news
+  - https://stability.ai/news
+  - https://arxiv.org
+  - https://www.nature.com/subjects/artificial-intelligence
+  - https://www.sciencedaily.com/news/computers_math/artificial_intelligence/
+  - https://www.technologyreview.com/topic/artificial-intelligence/
+  - https://venturebeat.com/category/ai
+  - https://www.theverge.com/artificial-intelligence
+  - https://techcrunch.com/tag/artificial-intelligence/
+  - https://www.wired.com/tag/artificial-intelligence/
+  - https://www.infoworld.com/category/artificial-intelligence/
+  - https://www.zdnet.com/topic/artificial-intelligence/
+  - https://www.forbes.com/ai/
+  - https://www.lesswrong.com/tag/artificial-intelligence
+  - https://alignmentforum.org/
+  - https://huggingface.co/blog
+  - https://towardsdatascience.com/tagged/artificial-intelligence
+  - https://medium.com/tag/artificial-intelligence
+  - https://lexfridman.com/podcast/
+  - https://twimlai.com/podcast/
+  - https://eye-on-ai.simplecast.com/
+#russia
+  - https://habr.com/ru
+  - https://www.cnews.ru
+  - https://www.comnews.ru
+  - https://trends.rbc.ru/trends/technologies
+  - https://vc.ru/tag/искусственный%20интеллект
+  - https://ria.ru/science
+  - https://tass.ru/nauka
+  - https://neurohive.io
+  - https://www.kommersant.ru/lenta/tech
+  - https://www.interfax.ru/hi-tech
+  - https://ainews.ru
+  - https://robogeek.ru
+  - https://sk.ru/news
+
+#Kazakh
+  - https://nu.edu.kz/news
+  - https://satbayev.university/ru/news
+  - https://astanahub.com/ru/news
+  - https://informburo.kz
+  - https://tengrinews.kz
+  - https://www.zakon.kz
+  - https://www.kazpravda.kz
+  - https://lsm.kz
+  - https://inbusiness.kz/ru
+  - https://kz.kursiv.media
+  - https://profit.kz
+  - https://digital.report
+  - https://digitalkz.kz
+  - https://news.google.com/rss/search?q=artificial+intelligence
+  - https://news.google.com/rss/search?q=искусственный+интеллект+Казахстан
+  - https://news.google.com/rss/search?q=искусственный+интеллект&hl=ru&gl=RU&ceid=RU:ru
+
+rules:
+  try_paths: ["/feed", "/rss", "/rss.xml", "/atom.xml", "/blog/rss.xml"]
+  min_recent_days: 30

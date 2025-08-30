@@ -1,0 +1,5 @@
+news.aicourse.kz {
+  handle_path /api* {
+    reverse_proxy api:8000
+  }
+}
